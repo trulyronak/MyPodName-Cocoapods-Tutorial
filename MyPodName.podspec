@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
 This is a long description of what my pod does. In order for CocoaPods to accept this, my description must be longer than the summary.
                        DESC
 
-  s.homepage         = 'https://github.com/ronakdev/MyPodName'
+  s.homepage         = 'https://github.com/ronakdev/MyPodName-Cocoapods-Tutorial'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ronakdev' => 'ronak.shah.zesty@gmail.com' }
-  s.source           = { :git => 'https://github.com/ronakdev/MyPodName.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ronakdev/MyPodName-Cocoapods-Tutorial.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/realronakshah'
 
   s.ios.deployment_target = '8.0'
