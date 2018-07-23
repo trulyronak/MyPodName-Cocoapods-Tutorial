@@ -1,0 +1,32 @@
+{
+  "name": "MyPodName",
+  "version": "0.1.0",
+  "summary": "This is a proper description of what my pod does.",
+  "swift_version": "4.0",
+  "description": "This is a long description of what my pod does. In order for CocoaPods to accept this, my description must be longer than the summary.",
+  "homepage": "https://github.com/ronakdev/MyPodName",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ronakdev": "ronak.shah.zesty@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ronakdev/MyPodName.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/realronakshah",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MyPodName/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.7"
+    ],
+    "SwiftyJSON": [
+      "~> 4.0"
+    ]
+  }
+}
